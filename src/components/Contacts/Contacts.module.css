@@ -1,17 +1,18 @@
 .element {
   display: table;
+  list-style-type: none;
   margin: auto;
-  font-weight: bold;
-  font-size: 26px;
+  font-size: 15px;
   margin-bottom: 30px;
 }
 
 .deleteButton {
+  font-size: 15px;
   margin-left: 25px;
   padding: 10px;
   display: inline;
 }
 
 .deleteButton:hover {
-  background-color: red;
+  background-color: rgb(194, 194, 194);
 }
